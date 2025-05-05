@@ -25,7 +25,16 @@ body {
     position: sticky ;
     z-index: 1;
 }
+.video-wrapper {
+  width: 100%;
+}
 
+.responsive-video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* opcional: para bordes redondeados */
+  display: block;
+}
 
 .nav-tabs {
     display: flex;  
